@@ -1,0 +1,113 @@
+body{    
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #c0ebf9;
+    
+    @media only screen and (max-width:640px){
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #root{
+        width: 100%;
+        min-height: 100vh;
+
+        
+
+        h1{
+            position: relative;
+            text-align: center;
+            top: 150px;
+
+            font-weight: 700;
+            font-size: 24px;
+            color: #467745;
+
+            @media only screen and (max-width:640px){
+                text-align: left;
+            }
+
+        } 
+        
+        .first{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 170px;
+
+            width: 600px;
+            height: 64px;
+    
+            background-color: #fff;
+
+            @media only screen and (max-width:640px){
+                max-width: 100%;
+                left: 20px;            
+            }
+        }
+        .first::placeholder{
+            font-weight: 500;
+            font-size: 16px;
+            color: #467745;
+            padding-left: 10px;
+            padding-top: 10px;
+
+        }
+        textarea{
+
+            width: 600px;
+            height: 120px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            background-color: #fff;
+
+            @media only screen and (max-width:640px){
+                width: 100%;
+                left: 20px;
+            }
+        }
+        textarea::placeholder{
+            font-weight: 400;
+            font-size: 16px;
+            color: #467745;
+            padding-left: 10px;
+            padding-top: 10px;
+
+        }
+        p{
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            border: none;
+            
+            @media only screen and (width:640px){
+                text-align: left;
+            }
+            
+            label{
+                font-weight: 500;
+                font-size: 16px;
+                color: #467745; 
+            }
+        }
+        button{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            
+            width: 280px;
+            height: 80px;
+
+            background-color: #467745;
+
+            font-weight: 700;
+            font-size: 21px;
+            color: #c0ebf9;
+            letter-spacing: 0.2em;
+        }
+
+    }
+}

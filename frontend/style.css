@@ -1,0 +1,163 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #c0ebf9;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+body #root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body #root h1 {
+  position: relative;
+  text-align: center;
+  top: 150px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #467745;
+}
+
+@media only screen and (max-width: 640px) {
+  body #root h1 {
+    text-align: left;
+  }
+}
+
+body #root .first {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 170px;
+  width: 600px;
+  height: 64px;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 640px) {
+  body #root .first {
+    max-width: 100%;
+    left: 20px;
+  }
+}
+
+body #root .first::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+body #root .first:-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+body #root .first::-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+body #root .first::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+body #root textarea {
+  width: 600px;
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 640px) {
+  body #root textarea {
+    width: 100%;
+    left: 20px;
+  }
+}
+
+body #root textarea::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #467745;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+body #root textarea:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #467745;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+body #root textarea::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #467745;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+body #root textarea::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #467745;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+body #root p {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  border: none;
+}
+
+@media only screen and (width: 640px) {
+  body #root p {
+    text-align: left;
+  }
+}
+
+body #root p label {
+  font-weight: 500;
+  font-size: 16px;
+  color: #467745;
+}
+
+body #root button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 280px;
+  height: 80px;
+  background-color: #467745;
+  font-weight: 700;
+  font-size: 21px;
+  color: #c0ebf9;
+  letter-spacing: 0.2em;
+}
+/*# sourceMappingURL=style.css.map */
