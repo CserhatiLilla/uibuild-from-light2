@@ -147,6 +147,32 @@ body #root p label {
   color: #467745;
 }
 
+body #root p label span {
+  text-decoration: underline;
+}
+
+body #root #data {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 0px;
+}
+
+body #root #mail {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 0px;
+}
+
 body #root button {
   display: block;
   margin-left: auto;
